@@ -1,0 +1,104 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\jiayizhang\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\jiayizhang\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.9 (AdoptOpenJDK Java 1.8.0_292)
+[debug]       Load.loadUnit: plugins took 94.0647ms
+[debug]       Load.loadUnit: defsScala took 0.3069ms
+[debug] [Loading] Scanning directory C:\Users\jiayizhang\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\jiayizhang\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.2377 ms
+[debug]           Load.resolveProject(global-plugins) took 48.608ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\jiayizhang\.sbt\1.0\plugins, plugins: List(<none>))) took 104.3384ms
+[debug] [Loading] Done in C:\Users\jiayizhang\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 128.2285ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2256ms
+[debug]     Load.loadUnit(file:/C:/Users/jiayizhang/.sbt/1.0/plugins/, ...) took 229.7466ms
+[debug]   Load.apply: load took 530.1798ms
+[debug]   Load.apply: resolveProjects took 9.3899ms
+[debug]   Load.apply: finalTransforms took 65.5523ms
+[debug]   Load.apply: config.delegates took 8.4651ms
+[debug]   Load.apply: Def.make(settings)... took 5632.2057ms
+[debug]   Load.apply: structureIndex took 80.8742ms
+[debug]   Load.apply: mkStreams took 1.4598ms
+[info] loading global plugins from C:\Users\jiayizhang\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 8847.7213ms
+[debug]           Load.loadUnit: plugins took 19.1989ms
+[debug]           Load.loadUnit: defsScala took 0.003ms
+[debug] [Loading] Scanning directory C:\Users\jiayizhang\IdeaProjects\SpinalTemplateSbt-master\project
+[debug]             Load.loadUnit: mkEval took 6.2444ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\jiayizhang\IdeaProjects\SpinalTemplateSbt-master\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.4336 ms
+[info] loading settings for project spinaltemplatesbt-master-build from plugins.sbt,idea.sbt ...
+[debug]               Load.resolveProject(spinaltemplatesbt-master-build) took 2.5876ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spinaltemplatesbt-master-build, base: C:\Users\jiayizhang\IdeaProjects\SpinalTemplateSbt-master\project, plugins: List(<none>))) took 4.6057ms
+[debug] [Loading] Done in C:\Users\jiayizhang\IdeaProjects\SpinalTemplateSbt-master\project, returning: (spinaltemplatesbt-master-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 165.0281ms
+[debug]           Load.loadUnit: cleanEvalClasses took 3.7645ms
+[debug]         Load.loadUnit(file:/C:/Users/jiayizhang/IdeaProjects/SpinalTemplateSbt-master/project/, ...) took 188.8064ms
+[debug]       Load.apply: load took 189.8075ms
+[debug]       Load.apply: resolveProjects took 0.0861ms
+[debug]       Load.apply: finalTransforms took 6.1481ms
+[debug]       Load.apply: config.delegates took 0.3774ms
+[debug]       Load.apply: Def.make(settings)... took 57.9918ms
+[debug]       Load.apply: structureIndex took 24.6029ms
+[debug]       Load.apply: mkStreams took 0.0035ms
+[info] loading project definition from C:\Users\jiayizhang\IdeaProjects\SpinalTemplateSbt-master\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 646.8796ms
+[debug]     Load.loadUnit: defsScala took 0.0027ms
+[debug] [Loading] Scanning directory C:\Users\jiayizhang\IdeaProjects\SpinalTemplateSbt-master
+[debug]       Load.loadUnit: mkEval took 0.3086ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\jiayizhang\IdeaProjects\SpinalTemplateSbt-master, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.6349 ms
+[info] loading settings for project spinaltemplatesbt-master from build.sbt ...
+[debug]         Load.resolveProject(spinaltemplatesbt-master) took 21.5369ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id spinaltemplatesbt-master, base: C:\Users\jiayizhang\IdeaProjects\SpinalTemplateSbt-master, plugins: List(<none>))) took 24.1416ms
+[debug] [Loading] Done in C:\Users\jiayizhang\IdeaProjects\SpinalTemplateSbt-master, returning: (spinaltemplatesbt-master)
+[debug]     Load.loadUnit: loadedProjectsRaw took 175.5798ms
+[debug]     Load.loadUnit: cleanEvalClasses took 4.8734ms
+[debug]   Load.loadUnit(file:/C:/Users/jiayizhang/IdeaProjects/SpinalTemplateSbt-master/, ...) took 827.9041ms
+[debug] Load.apply: load took 829.1315ms
+[debug] Load.apply: resolveProjects took 0.1229ms
+[debug] Load.apply: finalTransforms took 22.1712ms
+[debug] Load.apply: config.delegates took 0.3631ms
+[debug] Load.apply: Def.make(settings)... took 72.8142ms
+[debug] Load.apply: structureIndex took 21.5733ms
+[debug] Load.apply: mkStreams took 0.0037ms
+[info] set current project to SpinalTemplateSbt (in build file:/C:/Users/jiayizhang/IdeaProjects/SpinalTemplateSbt-master/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 59621 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 59621, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to SpinalTemplateSbt (in build file:/C:/Users/jiayizhang/IdeaProjects/SpinalTemplateSbt-master/)
+[debug] > Exec(idea-shell, None, None)
+[warn] In the last 4516 seconds, 5.014 (0.1%) were spent in GC. [Heap: 0.29GB free of 0.35GB, max 1.33GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
